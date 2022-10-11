@@ -6,7 +6,7 @@
     }
 
     section#login {
-        width: 80vw;
+        width: 700px;
     }
 
     section#login > div#imagem {
@@ -18,8 +18,20 @@
     }
 
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 70%;
+    }
+
+    div#formulario > h1 {
+        text-align: center;
+        padding: 10px;
+    }
+
+    div#formulario > p {
+        width: 450px;
+        display: block;
+        margin: auto;
+        text-align: center;
     }
 }
 
@@ -32,14 +44,26 @@
     }
 
     section#login > div#imagem {
-        float: left;
-        width: 30%;
+        float: right;
+        width: 40%;
         height: 100%;
         background-position: bottom center;
     }
 
     section#login > div#formulario {
-        float: right;
-        width: 70%;
+        width: 60%;
+    }
+
+    div#formulario > h1 {
+        text-align: center;
+        padding: 10px;
+    }
+
+    div#formulario > p {
+        width: 500px;
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-size: 1em;
     }
 }
