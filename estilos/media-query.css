@@ -7,6 +7,7 @@
 
     section#login {
         width: 700px;
+        height: 320px;
     }
 
     section#login > div#imagem {
@@ -32,6 +33,7 @@
         display: block;
         margin: auto;
         text-align: center;
+        padding: 10px;
     }
 }
 
@@ -41,6 +43,7 @@
     }
     section#login {
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -65,5 +68,6 @@
         margin: auto;
         text-align: center;
         font-size: 1em;
+        padding: 10px;
     }
 }
